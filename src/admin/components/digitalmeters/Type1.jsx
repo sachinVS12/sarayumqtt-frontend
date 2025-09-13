@@ -14,7 +14,7 @@ const Type1 = ({
   const [emoji, setEmoji] = useState("❄️");
 
   useEffect(() => {
-    const socket = io("http://localhost:4000", {
+    const socket = io("http://15.207.106.243:4000", {
       // path: "/socket.io/",
       transports: ["websocket"],
       secure: true,

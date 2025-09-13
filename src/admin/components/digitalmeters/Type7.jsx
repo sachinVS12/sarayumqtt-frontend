@@ -16,7 +16,7 @@ const Type7 = ({
   const [value, setValue] = useState(20);
 
   useEffect(() => {
-    const socket = io("http://localhost:4000", {
+    const socket = io("http://15.207.106.243:4000", {
       //  path: "/socket.io/",
       transports: ["websocket"],
       secure: true,
